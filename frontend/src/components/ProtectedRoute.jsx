@@ -20,3 +20,4 @@ export const ProtectedRoute = () => {
 };
 
 export default ProtectedRoute;
+

@@ -25,3 +25,4 @@ public class OcrExtractResponse {
     private Map<String, String> extractedFields;
     private boolean profileUpdated;
 }
+

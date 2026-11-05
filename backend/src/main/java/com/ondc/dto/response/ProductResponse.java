@@ -32,3 +32,4 @@ public class ProductResponse {
     private Instant createdAt;
     private Instant updatedAt;
 }
+

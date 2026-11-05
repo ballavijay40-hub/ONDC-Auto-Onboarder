@@ -14,3 +14,4 @@ public interface DocumentRepository extends MongoRepository<UploadedDocument, St
     long countBySellerId(String sellerId);
     void deleteBySellerId(String sellerId);
 }
+

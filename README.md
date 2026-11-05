@@ -138,3 +138,4 @@ cd backend
 mvn test
 ```
 All unit tests for Regex extraction, Catalog generation, and Compliance auditing run automatically with 100% pass rate.
+

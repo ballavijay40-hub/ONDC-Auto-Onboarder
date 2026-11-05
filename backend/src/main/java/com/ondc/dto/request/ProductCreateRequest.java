@@ -36,3 +36,4 @@ public class ProductCreateRequest {
     @Builder.Default
     private ProductSource source = ProductSource.MANUAL;
 }
+

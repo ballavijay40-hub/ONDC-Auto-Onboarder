@@ -28,3 +28,4 @@ public class ONDCExportController {
         return ResponseEntity.ok(ondcExportService.exportBecknCatalog(sellerId));
     }
 }
+

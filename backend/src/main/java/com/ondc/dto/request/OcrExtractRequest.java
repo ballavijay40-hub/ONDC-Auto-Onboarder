@@ -15,3 +15,4 @@ public class OcrExtractRequest {
     @NotBlank(message = "Document ID is required")
     private String documentId;
 }
+

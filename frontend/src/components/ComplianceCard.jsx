@@ -136,3 +136,4 @@ export const ComplianceCard = ({ compliance, onRecheck, loading }) => {
 };
 
 export default ComplianceCard;
+

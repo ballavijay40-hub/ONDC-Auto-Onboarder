@@ -20,3 +20,4 @@ public class OndcBecknCatalogResponse {
     private List<Map<String, Object>> items;
     private Map<String, Object> complianceSummary;
 }
+

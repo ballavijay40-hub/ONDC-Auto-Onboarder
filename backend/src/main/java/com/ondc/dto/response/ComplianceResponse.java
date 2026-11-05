@@ -30,3 +30,4 @@ public class ComplianceResponse {
     private String providerUsed;
     private Instant checkedAt;
 }
+

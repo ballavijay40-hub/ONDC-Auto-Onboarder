@@ -61,3 +61,4 @@ public class OCRController {
         return ResponseEntity.ok(response);
     }
 }
+

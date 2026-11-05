@@ -133,3 +133,4 @@ public class CatalogGenerator {
         return tags;
     }
 }
+

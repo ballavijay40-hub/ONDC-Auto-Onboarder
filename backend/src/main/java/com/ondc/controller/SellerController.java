@@ -46,3 +46,4 @@ public class SellerController {
         return ResponseEntity.ok(sellerService.updateSeller(sellerId, request));
     }
 }
+

@@ -23,3 +23,4 @@ public class AiGenerateRequest {
     private String imageUrl;
     private String provider; // "gemini", "claude", or null for auto
 }
+

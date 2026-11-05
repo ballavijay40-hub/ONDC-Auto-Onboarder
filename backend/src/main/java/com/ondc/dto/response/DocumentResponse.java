@@ -25,3 +25,4 @@ public class DocumentResponse {
     private OcrStatus ocrStatus;
     private Instant uploadedAt;
 }
+

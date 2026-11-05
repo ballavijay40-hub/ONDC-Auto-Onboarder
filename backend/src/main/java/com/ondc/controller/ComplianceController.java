@@ -44,3 +44,4 @@ public class ComplianceController {
         return ResponseEntity.ok(complianceService.getLatestCompliance(sellerId));
     }
 }
+

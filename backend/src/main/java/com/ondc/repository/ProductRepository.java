@@ -11,3 +11,4 @@ public interface ProductRepository extends MongoRepository<Product, String> {
     long countBySellerId(String sellerId);
     void deleteBySellerId(String sellerId);
 }
+

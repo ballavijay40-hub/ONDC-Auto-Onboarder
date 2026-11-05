@@ -22,3 +22,4 @@ public class SellerResponse {
     private String role;
     private Instant createdAt;
 }
+

@@ -20,3 +20,4 @@ public class ErrorResponse {
     private Instant timestamp = Instant.now();
     private Map<String, String> validationErrors;
 }
+

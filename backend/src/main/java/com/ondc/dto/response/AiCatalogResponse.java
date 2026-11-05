@@ -31,3 +31,4 @@ public class AiCatalogResponse {
     private String providerUsed;
     private boolean fallbackUsed;
 }
+

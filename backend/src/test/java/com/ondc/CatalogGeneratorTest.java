@@ -57,3 +57,4 @@ class CatalogGeneratorTest {
         assertEquals(3, response.getTags().size());
     }
 }
+

@@ -37,3 +37,4 @@ export const authService = {
     return !!localStorage.getItem('ondc_token');
   }
 };
+

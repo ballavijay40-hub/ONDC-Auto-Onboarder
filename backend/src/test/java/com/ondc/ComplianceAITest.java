@@ -79,3 +79,4 @@ class ComplianceAITest {
         assertFalse(response.getPassedChecks().isEmpty());
     }
 }
+

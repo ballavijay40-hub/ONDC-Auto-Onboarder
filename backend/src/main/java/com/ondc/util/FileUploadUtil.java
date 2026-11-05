@@ -79,3 +79,4 @@ public final class FileUploadUtil {
         return ALLOWED_IMAGE_EXTENSIONS.stream().anyMatch(lower::endsWith);
     }
 }
+

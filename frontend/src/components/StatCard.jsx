@@ -27,3 +27,4 @@ export const StatCard = ({ title, value, subtext, icon: Icon, color = 'blue' }) 
 };
 
 export default StatCard;
+

@@ -10,3 +10,4 @@ public interface ComplianceRepository extends MongoRepository<ComplianceRecord, 
     Optional<ComplianceRecord> findTopBySellerIdOrderByCheckedAtDesc(String sellerId);
     void deleteBySellerId(String sellerId);
 }
+

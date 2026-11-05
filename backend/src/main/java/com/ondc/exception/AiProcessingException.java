@@ -9,3 +9,4 @@ public class AiProcessingException extends RuntimeException {
         super(message, cause);
     }
 }
+

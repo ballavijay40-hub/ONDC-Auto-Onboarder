@@ -23,3 +23,4 @@ public class DashboardResponse {
     private List<String> pendingActionItems;
     private Map<String, Boolean> onboardingFunnel;
 }
+

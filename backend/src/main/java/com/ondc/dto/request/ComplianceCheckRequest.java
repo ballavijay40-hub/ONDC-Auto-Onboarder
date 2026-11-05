@@ -13,3 +13,4 @@ public class ComplianceCheckRequest {
     private String sellerId;
     private String provider; // "claude", "gemini", or null for auto
 }
+
