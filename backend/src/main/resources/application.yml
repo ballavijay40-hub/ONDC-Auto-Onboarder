@@ -3,11 +3,11 @@ spring:
     name: ondc-auto-onboarder
   mongodb:
     uri: ${MONGODB_URI:mongodb://localhost:27017/ondc_onboarder}
-    auto-index-creation: true
+    auto-index-creation: false
   data:
     mongodb:
       uri: ${MONGODB_URI:mongodb://localhost:27017/ondc_onboarder}
-      auto-index-creation: true
+      auto-index-creation: false
   servlet:
     multipart:
       max-file-size: 10MB
