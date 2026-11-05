@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: ondc-auto-onboarder
+  mongodb:
+    uri: ${MONGODB_URI:mongodb://localhost:27017/ondc_onboarder}
+    auto-index-creation: true
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/ondc_onboarder}
+      auto-index-creation: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 12MB
+
+server:
+  port: ${SERVER_PORT:8080}
+
+app:
+  jwt:
+    secret: ${JWT_SECRET}
+    expiration: ${JWT_EXPIRATION:86400000}
+  cors:
+    origins: ${CORS_ORIGINS:http://localhost:5173}
+  upload:
+    dir: ${UPLOAD_DIR:uploads}
+  tesseract:
+    data-path: ${TESSERACT_DATA_PATH:tessdata}
+  gemini:
+    api-key: ${GEMINI_API_KEY:}
+    model: ${GEMINI_MODEL:gemini-2.5-flash}
+    base-url: ${GEMINI_BASE_URL:https://generativelanguage.googleapis.com}
+    timeout-seconds: 45
+  anthropic:
+    api-key: ${ANTHROPIC_API_KEY:}
+    model: ${ANTHROPIC_MODEL:claude-sonnet-4-5}
+    base-url: ${ANTHROPIC_BASE_URL:https://api.anthropic.com}
+    version: "2023-06-01"
+    timeout-seconds: 45
